@@ -1,3 +1,4 @@
+CREATE ROLE huncho WITH password "**********";
 GRANT ALL PRIVILEGES ON DATABASE development TO huncho;
 
 GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO huncho;
